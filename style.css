@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(31, 31, 31);
+    background-image: linear-gradient(#288ed7, #101270);
+    background-size: 1920px 1080px;
+    font-family: 'Poppins', sans-serif;
+}
+.all{
+    background-color: rgb(48, 48, 48);
+    border-radius: 12px;
+    width: 35rem;
+    height: 40rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: auto;
+}
+.container h1{
+    color: #fff;
+    font-size: 3rem;
+}
+#taskform{
+    display: flex;
+}
+.tasklist{
+    margin: 0 auto;
+    float: left;
+    width: 28rem;
+}
+.tasklist h2{
+    margin-top: 1rem;
+    color: #fff;
+}
+#taskinput{
+    width: 25rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 1rem;
+}
+#tasksubmit{
+    padding: 9px 18px 9px 18px;
+    margin-left: 0.5rem;
+    background-color: #288ed7;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.task{
+    display: flex;
+    margin-top: 0.5rem;
+    color: #000;
+}
+.buttons{
+    display: flex;
+}
+.edit{
+    background-color: #149244;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.delete{
+    background-color: #e40f0f;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px 10px 12px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.text{
+    border-radius: 8px;
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+}

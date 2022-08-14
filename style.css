@@ -5,12 +5,13 @@
 }
 body{
     background-color: rgb(31, 31, 31);
-    background-image: linear-gradient(#288ed7, #101270);
+    background: url(blob.svg);
+    /* background-image: linear-gradient(#2071ac, #0a0c4d); */
     background-size: 1920px 1080px;
     font-family: 'Poppins', sans-serif;
 }
 .all{
-    background-color: rgb(48, 48, 48);
+    /* background-color: rgb(48, 48, 48); */
     border-radius: 12px;
     width: 35rem;
     height: 40rem;
@@ -29,18 +30,21 @@ body{
 }
 #taskform{
     display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 3rem;
 }
 .tasklist{
     margin: 0 auto;
     float: left;
-    width: 28rem;
+    width: auto;
 }
 .tasklist h2{
     margin-top: 1rem;
     color: #fff;
 }
 #taskinput{
-    width: 25rem;
+    width: 30rem;
     height: 3.5rem;
     font-size: 1.5rem;
     border: none;
@@ -49,49 +53,54 @@ body{
     padding-left: 1rem;
 }
 #tasksubmit{
-    padding: 9px 18px 9px 18px;
-    margin-left: 0.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    padding: 8px 8px 8px 8px;
+    /* margin-left: 0.5rem; */
     background-color: #288ed7;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
 }
 .task{
     display: flex;
-    margin-top: 0.5rem;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    width: auto;
+    height: auto;
     color: #000;
 }
 .buttons{
     display: flex;
 }
 .edit{
-    background-color: #149244;
-    border-radius: 8px;
-    padding: 10px 15px 10px 15px;
+    background-color: #288ed7;
+    /* padding: 10px 15px 10px 15px; */
+    height: 100%;
+    min-width: 54px;
     border: none;
     color: #fff;
     cursor: pointer;
-    font-size: 1rem;
-    margin-left: 1rem;
+    font-size: 1.5rem;
 }
 .delete{
-    background-color: #e40f0f;
+    background-color: #288ed7;
     border: none;
-    border-radius: 8px;
-    padding: 10px 12px 10px 12px;
+    min-width: 54px;
+    height: 100%;
+    /* padding: 10px 12px 10px 12px; */
     color: #fff;
     cursor: pointer;
-    font-size: 1rem;
-    margin-left: 0.5rem;
+    font-size: 1.5rem;
 }
 .text{
-    border-radius: 8px;
+    padding-left: 0.5rem;
+    background-color: #fff;
     width: 20rem;
-    height: 2.5rem;
+    height: 3.5rem;
     border: none;
     outline: none;
-    padding-left: 0.5rem;
-    font-size: 1.2rem;
+    /* padding-left: 0.5rem; */
+    font-size: 1.7rem;
 }

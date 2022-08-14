@@ -32,11 +32,11 @@ form.addEventListener('submit', (e) => {
 
     const taskedit = document.createElement("button");
     taskedit.classList.add("edit");
-    taskedit.innerHTML = "Edit";
+    taskedit.innerHTML = '<i class="fa-solid fa-pen"></i>';
 
     const taskdelete = document.createElement("button");
     taskdelete.classList.add("delete");
-    taskdelete.innerHTML = "Delete";
+    taskdelete.innerHTML = '<i class="fa-solid fa-trash"></i>';
 
     taskbuttons.appendChild(taskedit);
     taskbuttons.appendChild(taskdelete);
@@ -50,13 +50,13 @@ form.addEventListener('submit', (e) => {
     input.value = "";
 
     taskedit.addEventListener('click', () => {
-        if (taskedit.innerText.toLowerCase () == "edit"){
+        if (taskedit.innerHTML.toLowerCase () == '<i class="fa-solid fa-pen"></i>'){
             taskinputelement.removeAttribute("readonly");
             taskinputelement.focus();
-            taskedit.innerText = "Save";
+            taskedit.innerHTML = '<i class="fa-solid fa-check"></i>';
         } else {
             taskinputelement.setAttribute("readonly", "readonly");
-            taskedit.innerText = "Edit"
+            taskedit.innerHTML = '<i class="fa-solid fa-pen"></i>';
         }
     });
 

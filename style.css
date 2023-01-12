@@ -1,110 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: rgb(31, 31, 31);
-    background: url(blob.svg);
-    /* background-image: linear-gradient(#2071ac, #0a0c4d); */
-    background-size: 1920px 1080px;
-    font-family: 'Poppins', sans-serif;
+body {
+  background-color: rgb(31, 31, 31);
+  background: url(blob.svg);
+  /* background-image: linear-gradient(#2071ac, #0a0c4d); */
+  background-size: 1920px 1080px;
+  font-family: "Poppins", sans-serif;
 }
-.all{
-    /* background-color: rgb(48, 48, 48); */
-    border-radius: 12px;
-    width: 35rem;
-    height: 40rem;
-    margin: 5rem auto;
-    display: flex;
-    flex-direction: column;
+.all {
+  /* background-color: rgb(48, 48, 48); */
+  border-radius: 12px;
+  width: 35rem;
+  height: 40rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
 }
-.container{
-    margin: 0 auto;
-    padding-top: 3rem;
-    width: auto;
+.container {
+  margin: 0 auto;
+  padding-top: 3rem;
+  width: auto;
 }
-.container h1{
-    color: #fff;
-    font-size: 3rem;
+.container h1 {
+  color: #fff;
+  font-size: 3rem;
 }
-#taskform{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    margin-bottom: 3rem;
+#taskform {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 3rem;
 }
-.tasklist{
-    margin: 0 auto;
-    float: left;
-    width: 29.25rem;
+.tasklist {
+  margin: 0 auto;
+  float: left;
+  width: 29.25rem;
 }
-.tasklist h2{
-    margin-top: 1rem;
-    color: #fff;
+.tasklist h2 {
+  margin-top: 1rem;
+  color: #fff;
 }
-#taskinput{
-    width: 30rem;
-    height: 3.5rem;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    padding-left: 1rem;
+#taskinput {
+  width: 30rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 1rem;
 }
-#tasksubmit{
-    height: 2.5rem;
-    margin-right: 0.5rem;
-    padding: 8px 10px 8px 10px;
-    /* margin-left: 0.5rem; */
-    background-color: #288ed7;
-    color: #fff;
-    font-size: 1.5rem;
-    border: none;
-    cursor: pointer;
+#tasksubmit {
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  padding: 8px 10px 8px 10px;
+  /* margin-left: 0.5rem; */
+  background-color: #288ed7;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
 }
-.task{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 1rem;
-    width: 29.25rem;
-    height: auto;
-    color: #000;
-    font-weight: bold;
+.task {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  width: 29.25rem;
+  height: auto;
+  color: #000;
+  font-weight: bold;
 }
-.buttons{
-    height: 3rem;
-    display: inline-flex;
-    gap: 1rem;
+.buttons {
+  height: 3rem;
+  display: inline-flex;
+  gap: 1rem;
 }
-.edit{
-    background-color: #288ed7;
-    /* padding: 10px 15px 10px 15px; */
-    height: 100%;
-    min-width: 54px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 1.5rem;
-    margin-left: 1rem;
+.edit {
+  background-color: #288ed7;
+  /* padding: 10px 15px 10px 15px; */
+  height: 100%;
+  min-width: 54px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 1rem;
 }
-.delete{
-    background-color: #288ed7;
-    border: none;
-    min-width: 54px;
-    height: 100%;
-    /* padding: 10px 12px 10px 12px; */
-    color: #fff;
-    cursor: pointer;
-    font-size: 1.5rem;
+.delete {
+  background-color: #288ed7;
+  border: none;
+  min-width: 54px;
+  height: 100%;
+  /* padding: 10px 12px 10px 12px; */
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
-.text{
-    padding-left: 0.5rem;
-    background-color: #fff;
-    width: 20rem;
-    height: 3rem;
-    border: none;
-    outline: none;
-    /* padding-left: 0.5rem; */
-    font-size: 1.7rem;
+.text {
+  padding-left: 0.5rem;
+  background-color: #fff;
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  /* padding-left: 0.5rem; */
+  font-size: 1.7rem;
 }

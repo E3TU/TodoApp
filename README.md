@@ -7,13 +7,13 @@ Discover the simplicity of task management with this straightforward Todo App. B
 Clone the project
 
 ```bash
-  git clone https://github.com/E3TU/TodoApp
+git clone https://github.com/E3TU/TodoApp
 ```
 
 Go to the project directory
 
 ```bash
-  cd TodoApp
+cd TodoApp
 ```
 
 Open the index.html file in your web browser or with visual studio code's live server extension

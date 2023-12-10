@@ -30,5 +30,4 @@ Open the index.html file in your web browser or with visual studio code's live s
 ## Roadmap
 
 - Mark tasks as done
-
 - Add animations

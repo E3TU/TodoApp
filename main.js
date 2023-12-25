@@ -84,4 +84,10 @@ function renderTodos() {
       renderTodos();
     });
   });
+
+  if(todos.length === 0) {
+    taskList.style.display = "none";
+  } else{
+    taskList.style.display = "block";
+  }
 }
